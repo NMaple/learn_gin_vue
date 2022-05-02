@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/NMaple/learn_gin_vue/router"
+)
 
 func main() {
-	fmt.Println("learn_gin_vue")
+	r := router.Router()
+	
+	r.Run()
 }
